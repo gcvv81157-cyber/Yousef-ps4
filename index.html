@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>يوسف عامر | PS4</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Tahoma,sans-serif;background:#061b4d;color:#fff;text-align:center}
+.hero{padding:28px 16px 18px;background:linear-gradient(135deg,#063b91,#061536)}
+h1{margin:0 0 7px;font-size:34px}
+.phone{font-size:20px}
+.wrap{max-width:950px;margin:auto;padding:18px 14px 35px}
+.card{background:#0b2d6b;border-radius:18px;padding:14px;box-shadow:0 8px 30px #0006}
+.card img{width:100%;max-height:420px;object-fit:cover;display:block;border-radius:12px}
+h2{margin:25px 0 12px}
+.buttons{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:10px}
+button{border:0;border-radius:12px;padding:13px 8px;background:#1677ff;color:white;font-size:16px;font-weight:bold;cursor:pointer}
+button:hover{background:#2e8aff}
+#status{margin:18px 0;padding:14px;border-radius:12px;background:#092452;min-height:24px}
+.note{opacity:.82;font-size:13px;line-height:1.7;margin-top:18px}
+</style>
+</head>
+<body>
+<header class="hero">
+<h1>يوسف عامر</h1>
+<div class="phone">07761813337</div>
+</header>
+
+<main class="wrap">
+<div class="card"><img src="cover.jpg" alt="PS4"></div>
+
+<h2>اختار إصدار نظام PS4</h2>
+<div class="buttons">
+<button onclick="selectVersion('5.00')">5.00</button>
+<button onclick="selectVersion('5.01')">5.01</button>
+<button onclick="selectVersion('5.03')">5.03</button>
+<button onclick="selectVersion('5.05')">5.05</button>
+<button onclick="selectVersion('5.07')">5.07</button>
+<button onclick="selectVersion('6.00')">6.00</button>
+<button onclick="selectVersion('6.02')">6.02</button>
+<button onclick="selectVersion('6.20')">6.20</button>
+<button onclick="selectVersion('6.50')">6.50</button>
+<button onclick="selectVersion('6.72')">6.72</button>
+<button onclick="selectVersion('7.00')">7.00</button>
+<button onclick="selectVersion('7.01')">7.01</button>
+<button onclick="selectVersion('7.02')">7.02</button>
+<button onclick="selectVersion('7.50')">7.50</button>
+<button onclick="selectVersion('7.51')">7.51</button>
+<button onclick="selectVersion('7.55')">7.55</button>
+<button onclick="selectVersion('7.XX')">7.XX</button>
+<button onclick="selectVersion('8.00')">8.00</button>
+<button onclick="selectVersion('8.01')">8.01</button>
+<button onclick="selectVersion('8.03')">8.03</button>
+<button onclick="selectVersion('8.50')">8.50</button>
+<button onclick="selectVersion('9.00')">9.00</button>
+<button onclick="selectVersion('9.03')">9.03</button>
+<button onclick="selectVersion('9.04')">9.04</button>
+<button onclick="selectVersion('9.50')">9.50</button>
+<button onclick="selectVersion('9.60')">9.60</button>
+<button onclick="selectVersion('10.00')">10.00</button>
+<button onclick="selectVersion('10.01')">10.01</button>
+<button onclick="selectVersion('10.50')">10.50</button>
+<button onclick="selectVersion('10.70')">10.70</button>
+<button onclick="selectVersion('10.71')">10.71</button>
+<button onclick="selectVersion('11.00')">11.00</button>
+<button onclick="selectVersion('11.02')">11.02</button>
+<button onclick="selectVersion('11.50')">11.50</button>
+<button onclick="selectVersion('11.52')">11.52</button>
+<button onclick="selectVersion('12.00')">12.00</button>
+<button onclick="selectVersion('12.02')">12.02</button>
+<button onclick="selectVersion('12.50')">12.50</button>
+<button onclick="selectVersion('12.70')">12.70</button>
+<button onclick="selectVersion('13.00')">13.00</button>
+<button onclick="selectVersion('13.02')">13.02</button>
+<button onclick="selectVersion('13.50')">13.50</button>
+<button onclick="selectVersion('13.52')">13.52</button>
+</div>
+
+<div id="status">اختر إصدار جهازك.</div>
+<div class="note">
+هذه الصفحة واجهة اختيار للإصدارات فقط، ولا تحتوي على كود Jailbreak أو استغلال فعلي.
+</div>
+</main>
+
+<script>
+function selectVersion(v) {
+  document.getElementById('status').textContent =
+    'تم اختيار إصدار PS4: ' + v + ' — لا يوجد Exploit مضمّن في هذه النسخة.';
+}
+</script>
+</body>
+</html>
